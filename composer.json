@@ -1,0 +1,17 @@
+{
+    "name": "knayz/curly-brace-cheker",
+    "description": "Check proper curly brace closing.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Knayz\\CurlyBraceChecker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Knayz",
+            "email": "pesterev.andruha@gmail.com"
+        }
+    ],
+    "require": {}
+}
