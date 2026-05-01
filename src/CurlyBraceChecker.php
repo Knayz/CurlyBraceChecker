@@ -7,7 +7,7 @@ class Checker {
     /**
      * @throws \InvalidArgumentException
      */
-    public function check(string $str): bool
+    public function check(\string $str): bool
     {
         $str = preg_replace('/\s+/', '', $str);
 
