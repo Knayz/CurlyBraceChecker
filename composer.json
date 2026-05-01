@@ -13,5 +13,7 @@
             "email": "pesterev.andruha@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0.0"
+    }
 }
