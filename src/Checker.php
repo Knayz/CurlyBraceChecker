@@ -11,10 +11,6 @@ class Checker {
     {
         $str = preg_replace('/\s+/', '', $str);
 
-        if (preg_match('/[^()]/', $str)) {
-            throw new \InvalidArgumentException("It's not a curly brace");
-        }
-
         if (strlen($str) % 2 === 1) return false;
 
         $stack = new \SplStack();
