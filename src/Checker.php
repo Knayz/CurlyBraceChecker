@@ -31,6 +31,9 @@ class Checker {
                 $stack->pop();
             }
         }
+        if ($stack->count() > 0) {
+            return false;
+        }
         return true;
     }
 }
